@@ -1,0 +1,92 @@
+/* Feedback.css */
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .feedback-submit-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .feedback-btn {
+    /* Background color */
+    background-color: #4299e1;  /* Blue 500 */
+  
+    /* Text color */
+    color: #fff;  /* White */
+  
+    /* Padding */
+    padding: 0.5rem 0.75rem;  /* px-4 py-2 */
+  
+    /* Border radius */
+    border-radius: 0.5rem;  /* rounded */
+  
+    /* Position */
+    position: absolute;
+    bottom: 1rem;  /* bottom-4 */
+    right: 1rem;  /* right-4 */
+  }
+  .text{
+  font-size: 1.5rem;
+font-weight: 700;
+margin-bottom: 1rem;
+  }
+  .w-full{
+    /* Base styles */
+width: 100%;  /* w-full */
+padding: 0.75rem 1rem;  /* px-3 py-2 */
+border: 1px solid #ccc;  /* border (assuming default gray color) */
+border-radius: 0.5rem;  /* rounded */
+
+/* Focus styles */
+outline: none;  /* focus:outline-none */
+box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1);
+  }
+
+  .feedback-submit-btn {
+    /* Background color */
+    background-color: #f56565; /* Red 500 */
+  
+    /* Text color */
+    color: #fff; /* White */
+  
+    /* Padding */
+    padding: 0.5rem 0.75rem; /* px-4 py-2 */
+  
+    /* Border radius */
+    border-radius: 0.5rem; /* rounded */
+  
+    /* Margin */
+    margin-top: 0.5rem; /* mt-2 */
+    margin-left: auto;
+    margin-right: auto; /* mx-auto */
+  
+    /* Display */
+    display: block; /* block */
+  }
+.bg-red-500{
+    padding: 0.5rem 0.75rem; /* px-4 py-2 */
+  
+    /* Border radius */
+    border-radius: 0.5rem; /* rounded */
+  
+    /* Margin */
+    margin-top: 0.5rem; /* mt-2 */
+    margin-left: auto;
+    margin-right: auto;
+}  
